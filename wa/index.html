@@ -84,6 +84,11 @@ function normalizePhone(input) {
 
 $(document).ready(function() {
 
+  $(document).on("click", ".wa-link", function() {
+  let row = $(this).closest("tr");
+  row.removeClass().addClass("table-danger");
+  });
+
   $("#generate").click(function() {
     let raw = $("#data").val().trim();
     let template = $("#template").val();
@@ -131,8 +136,8 @@ $(document).ready(function() {
           <td>${nama}</td>
           <td>${nomor}</td>
           <td>
-            <a href="${link}" target="_blank" class="btn btn-sm btn-primary">
-              Buka WA
+            <a href="${link}" target="_blank" class="btn btn-sm btn-primary wa-link">
+              Buka WhatsApp
             </a>
           </td>
         </tr>

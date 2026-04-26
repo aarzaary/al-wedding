@@ -14,7 +14,7 @@ export const wishas = () => {
     const wishasContainer = document.querySelector('.wishas');
     const [_, form] = wishasContainer.children[2].children;
     const [peopleComentar, ___, containerComentar] = wishasContainer.children[3].children;
-    const buttonForm = form.children[4];
+    const buttonForm = form.children[6];
     const pageNumber = wishasContainer.querySelector('.page-number');
     const [prevButton, nextButton] = wishasContainer.querySelectorAll('.button-grup button');
 
@@ -68,7 +68,7 @@ export const wishas = () => {
                      <div style="background-color: ${data.color}">${data.name.charAt(0).toUpperCase()}</div>
                      <div>
                          <h4>${name}</h4>
-                         <p><strong>${date}</strong></p>
+                         <p><strong>${date} (${data.status})</strong></p>
                          <p style="border: 1px solid black; padding: 5px; border-radius: 10px;"><strong>${data.message}</strong></p>
                      </div>
                  </li>`;
@@ -108,6 +108,7 @@ export const wishas = () => {
         const comentar = {
             id: generateRandomId(),
             name: localStorage.getItem('name'),
+            status: e.target.status.value === 'y' ? 'Hadir' : 'Tidak Hadir',
             message: e.target.message.value,
             date: getCurrentDateTime(),
             color: generateRandomColor(),
