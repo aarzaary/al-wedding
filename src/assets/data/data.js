@@ -3,7 +3,7 @@ export const data = {
         L: {
             id: 1,
             name: 'Muhammad Al-falaq Wibisono',
-            child: 'Putra ke 3',
+            child: 'Putra ke 1',
             father: 'Yusof Ismail',
             mother: 'Erna Agustatik',
             image: './src/assets/images/cowo.jpg'
