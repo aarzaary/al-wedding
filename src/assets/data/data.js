@@ -4,8 +4,8 @@ export const data = {
             id: 1,
             name: 'Muhammad Al-falaq Wibisono',
             child: 'Putra ke 3',
-            father: 'Bambang Dwi Hariyanto',
-            mother: 'Yayuk Nurnani',
+            father: 'Yusof Ismail',
+            mother: 'Erna Agustatik',
             image: './src/assets/images/cowo.jpg'
         },
         P: {
@@ -27,7 +27,7 @@ export const data = {
             date: '6',
             day: "Sabtu",
             hours: {
-                start: '09.00',
+                start: '08.00',
                 finish: 'Selesai'
             }
         },
@@ -37,7 +37,7 @@ export const data = {
             date: '6',
             day: 'Sabtu',
             hours: {
-                start: '09.00',
+                start: '10.00',
                 finish: 'Selesai'
             }
         },
