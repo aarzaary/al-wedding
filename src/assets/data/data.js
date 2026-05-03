@@ -2,19 +2,19 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Muhammad Al-falaq Wibisono',
-            child: 'Putra ke 1',
-            father: 'Yusof Ismail',
-            mother: 'Erna Agustatik',
-            image: './src/assets/images/cowo.jpg'
-        },
-        P: {
-            id: 2,
             name: 'Annisha Noviera Heryani',
             child: 'Putri ke 1',
             father: 'Noormin Heri Soesanto',
             mother: 'Sumarsini',
             image: './src/assets/images/cewe.jpg'
+        },
+        P: {
+            id: 2,
+            name: 'Muhammad Al-falaq Wibisono',
+            child: 'Putra ke 1',
+            father: 'Yusof Ismail',
+            mother: 'Erna Agustatik',
+            image: './src/assets/images/cowo.jpg'
         },
 
         couple: './src/assets/images/couple.jpg'
@@ -27,7 +27,7 @@ export const data = {
             date: '6',
             day: "Sabtu",
             hours: {
-                start: '08.00',
+                start: '06.00',
                 finish: 'Selesai'
             }
         },
@@ -37,7 +37,7 @@ export const data = {
             date: '6',
             day: 'Sabtu',
             hours: {
-                start: '10.00',
+                start: '11.00',
                 finish: 'Selesai'
             }
         },
@@ -75,15 +75,15 @@ export const data = {
     bank: [
         {
             id: 1,
-            name: 'Muhammad Al-falaq Wibisono',
-            icon: './src/assets/images/bca.png',
-            rekening: '0300717306'
-        },
-        {
-            id: 2,
             name: 'Annisha Noviera Heryani',
             icon: './src/assets/images/bca.png',
             rekening: '6975304772'
+        },
+        {
+            id: 2,
+            name: 'Muhammad Al-falaq Wibisono',
+            icon: './src/assets/images/bca.png',
+            rekening: '0300717306'
         },
     ],
 
