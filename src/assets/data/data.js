@@ -38,7 +38,7 @@ export const data = {
             day: 'Sabtu',
             hours: {
                 start: '11.00',
-                finish: 'Selesai'
+                finish: '16.00'
             }
         },
         address: 'Sekopek Kulon, Sarirejo Perumahan Graha Raya 2 Blok K No. 802 (Rumah No. 802), KAB. KENDAL, KALIWUNGU, JAWA TENGAH, ID, 51372'
