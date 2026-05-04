@@ -15,7 +15,7 @@ export const welcome = () => {
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
-                Nisha & Alfa
+                Nisha&nbsp;&amp;&nbsp;&nbsp;Alfa
             </figcaption>`;
     };
 
