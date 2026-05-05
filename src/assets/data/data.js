@@ -2,7 +2,7 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Annisha Noviera Heryani',
+            name: 'Annisha Noviera Heryani, S.Kom',
             child: 'Putri ke 1',
             father: 'Noormin Heri Soesanto',
             mother: 'Sumarsini',
@@ -10,7 +10,7 @@ export const data = {
         },
         P: {
             id: 2,
-            name: 'Muhammad Al-falaq Wibisono',
+            name: 'Muhammad Al-falaq Wibisono, S.Kom',
             child: 'Putra ke 1',
             father: 'Yusof Ismail',
             mother: 'Erna Agustatik',
